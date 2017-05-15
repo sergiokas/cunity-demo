@@ -8,7 +8,7 @@ void test_suma(void) {
 	TEST_ASSERT_EQUAL_INT(sumar(5,5), 10);
 
 	// Este test falla
-	TEST_ASSERT_EQUAL_INT(sumar(3, 2), 4);
+	// TEST_ASSERT_EQUAL_INT(sumar(3, 2), 4);
 }
 
 void test_resta(void) {
